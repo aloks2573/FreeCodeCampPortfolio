@@ -1,0 +1,109 @@
+header#banner.navbar.navbar-default.navbar-fixed-top
+  .container
+    a.scrollable(href='#top')
+      img(src='http://3.bp.blogspot.com/-9_ZMxQeOwdw/T51OL0T8zoI/AAAAAAAAH3k/8wwwha-2vnE/s1600/alok+hindi+calligraphy+%25282%2529.jpg', alt='qlip | UI/UX Design and Development', title='Alok Singh |  Mean Stack Development')
+    button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false')
+      span.sr-only Toggle navigation
+      span.icon-bar
+      span.icon-bar
+      span.icon-bar
+    nav#navbar.collapse.navbar-collapse(role='navigation')
+      ul.nav.navbar-nav.navbar-right
+        li
+          a.scrollable(href='#top') About
+        li
+          a.scrollable(href='#portfolio') Portfolio
+        li
+          a.scrollable(href='#contact') Contact
+// end header
+a#top(name='home')
+main
+  header
+    .intro-text
+      p
+        | I am passionate about developing new things.I would love to work in field of Mean Stack Development. My other interests are Data Structure,Algorithms,Computer Networks and Competitive programming .
+      hr.star-bright
+      span.skills Web Developer - Photographer - Programmer
+    img(src='https://qph.ec.quoracdn.net/main-thumb-90660020-200-ivimnyznljavhjegvxaulbcpztqjezdt.jpeg', alt='A picture of Justin looking at San Francisco from across the Golden Gate Bridge.', title='A picture of ALok  at Abv-iiitm gwalior')
+  // Gallery Grid Section
+  section#portfolio
+    h2 Portfolio
+    hr.star-dark
+    ul.grid
+      li
+        img(src='https://scontent-bom1-1.cdninstagram.com/vp/ecf44c2fdd0dbb404dc85e395bbc9597/5B1A6B9F/t51.2885-15/s640x640/sh0.08/e35/c135.0.810.810/26865317_488807518180037_4864912471246241792_n.jpg', alt='')
+      li
+        img(src='https://scontent-bom1-1.cdninstagram.com/vp/c38d9951a79c49866a1c0193465bdad2/5B25D3B1/t51.2885-15/e35/25037385_291254018065053_2970483464488353792_n.jpg', alt='')
+      li
+        img(src='https://scontent-bom1-1.cdninstagram.com/vp/a85d87f7c37aa26f34c926ccbe9af184/5B02F4EE/t51.2885-15/e35/c236.0.608.608/26268435_363424204123487_1307225493275148288_n.jpg', alt='')
+      li
+        img(src='https://scontent-bom1-1.cdninstagram.com/vp/5c04ca201106a159deec17385928b39d/5B25C237/t51.2885-15/e35/26863649_144915639485695_6886335225631080448_n.jpg', alt='')
+      li
+        img(src='https://scontent-bom1-1.cdninstagram.com/vp/19340a08acc234ed35b9934a5fadfc58/5B206E01/t51.2885-15/s640x640/sh0.08/e35/26180833_178285422929397_616046117250924544_n.jpg', alt='')
+      li
+        img(src='https://scontent-bom1-1.cdninstagram.com/vp/6de23920e4207f742801f77a4395a8e4/5B202091/t51.2885-15/e35/26371442_142797859744323_6351450950753845248_n.jpg', alt='')
+  // Contact Section
+  section#contact
+    h2 Contact Me
+    hr.star-dark
+    div
+      form#contactForm(novalidate='')
+        .form-item
+          label(for='“name”') Name
+          input#name(type='text', placeholder='Name', required='')
+        .form-item
+          label(for='“email”') Email Address
+          input#email(type='email', placeholder='Email Address', required='')
+        .form-item
+          label(for='“phone”') Phone Number
+          input#phone(type='tel', placeholder='Phone Number', required='')
+        .form-item
+          label(for='“message”') Message
+          textarea#message(rows='5', placeholder='Message', required='')
+        br
+        button(type='submit') Send
+      div
+        p
+          | Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your rubix, random questions about the universe and the meaning of life..
+          just feel free to drop me a line anytime.
+        p I promise to reply A.S.A.P.
+        p Note: No spam 
+  // Scroll to Top Button (Only supposed to be visible on small and small screen sizes)
+  .scroll-top
+    a.button.scrollable(href='#top')
+      i.fa.fa-chevron-up
+// Footer
+footer
+  #footer-above
+    div
+      h3 About this page
+      p
+        | Made with 
+        i.fa.fa-fw.fa-coffee
+        |  and 
+        i.fa.fa-fw.fa-music
+        br
+        | by 
+        a(href='aloks2573@gmail.com') Alok Singh
+        | .
+    div
+      h3 Around the Web
+      ul
+        li
+          a.button.social(href='https://www.linkedin.com/in/aloks2573/',title='Alok Singh')
+            i.fa.fa-fw.fa-linkedin
+        li
+          a.button.social(href='https://github.com/aloks2573',title='Alok Singh')
+            i.fa.fa-fw.fa-github
+        li
+          a.button.social(href='https://twitter.com/aloks2573',title='Alok Singh')
+            i.fa.fa-fw.fa-twitter
+        li
+          a.button.social(href='https://www.instagram.com/a_l_o_k_s_i_n_g_h/', title='Alok Singh')
+            i.fa.fa-fw.fa-instagram
+  #footer-below
+    | alok © 
+    script.
+      document.write(new Date().getFullYear())
+    | . All Rights Reversed
+// <aside id="html5badge"><img src="http://www.w3.org/html/logo/badge/html5-badge-v-css3-graphics-semantics.png" width="38" height="170" alt="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics" title="HTML5 Powered with CSS3 / Styling, Graphics, 3D &amp; Effects, and Semantics"></aside>
